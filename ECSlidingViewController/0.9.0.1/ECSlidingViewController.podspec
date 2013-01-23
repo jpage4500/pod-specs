@@ -19,5 +19,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.author       = { "edgecase" => "http://edgecase.com"}
   s.source       = { :git => "https://github.com/edgecase/ECSlidingViewController.git", :commit => "b5aca807943109a4644db07fae826dba2f6ee50d" }
   s.platform     = :ios
-  s.source_files = './*.{h,m}'
+  s.source_files = 'Vendor', 'ECSlidingViewController', './*.{h,m}'
 end
