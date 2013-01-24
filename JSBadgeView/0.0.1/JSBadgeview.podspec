@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       =  { 'Javi Soto' => 'ios@javisoto.es' }
   s.source       =  { :git => 'https://github.com/JaviSoto/JSBadgeView.git', :commit => "24c945511311a0385e876e0a391d72643d879603" }
   s.platform     =  :ios
-  s.source_files =  './*.{h,m}'
+  s.source_files =  'JSBadgeView/'
   s.requires_arc =  true
 end
