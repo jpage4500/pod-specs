@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://dl.google.com/googleadmobadssdk/googleconversiontrackingsdkios.zip", :flatten => true }
   s.platform     = :ios
 
-  s.source_files = '*.h'
-  s.preserve_paths = '*.a'
+  s.source_files = 'GoogleConversionPing.h'
+  s.preserve_paths = 'libGoogleConversionTracking.a'
 
   s.frameworks = 'AdSupport'
   s.library   = 'GoogleConversionTracking'
